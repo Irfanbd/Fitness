@@ -362,6 +362,15 @@ box-shadow: 22px 24px 26px black;
 
 
 /**Cutomer review */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 .container{
   min-height: 400px;
   display: flex;
@@ -385,7 +394,7 @@ box-shadow: 22px 24px 26px black;
   width: 325px;
   height: auto;
   margin: 25px;
-  box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+  box-shadow: 20px 21px 22px gray ;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -402,16 +411,19 @@ box-shadow: 22px 24px 26px black;
 .card-info{
   position: relative;
   color: #222;
+  
   padding: 10px 20px 20px;
 }
 
 .card-info h3{
+  font-family: cursive;
   font-size: 1.8em;
   font-weight: 800;
   margin-bottom: 5px;
 }
 
 .card-info p{
+  font-style: italic;
   font-size: 1em;
   margin-bottom: 5px;
 }

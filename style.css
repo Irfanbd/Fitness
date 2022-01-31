@@ -262,7 +262,7 @@ background: linear-gradient(9deg, rgba(148,165,224,0.8911939775910365) 0%, rgba(
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
+  height: 200px;
   overflow: hidden;
   margin-top: 40px;
   border-top-right-radius: 20px;
@@ -397,6 +397,7 @@ box-shadow: 22px 24px 26px black;
   box-shadow: 20px 21px 22px gray ;
   border-radius: 10px;
   overflow: hidden;
+  
 }
 
 .card-image{
@@ -477,4 +478,72 @@ box-shadow: 22px 24px 26px black;
 .disable{
   background: #ccc;
 }
-      
+      /**Subscribe */
+
+.subscribe{
+box-shadow: 24px 26px 28px gray;
+  background: #fff;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 40px;
+}
+.subscribe .section-2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ccc;
+  padding: 20px;
+}
+.subscribe .section-2 #fname{
+  height: 40px;
+  width: 450px;
+}
+.subscribe .section-2 button{
+  border: none;
+  cursor: pointer;
+padding: 10px 20px;
+margin-top: 20px;
+border-radius: 10px;
+font-size: 20px;
+background: rgb(41,84,233);
+background: linear-gradient(9deg, rgba(41,84,233,1) 0%, rgba(214,176,228,1) 100%);
+}
+.section-1{
+  height: 300px;
+  box-shadow: 24px 26px 28px gray;
+flex: 1;
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.section-2{
+  height: 300px;
+  box-shadow: 24px 26px 28px gray;
+  flex: 1;
+  justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+  }
+  .section-3{
+    
+    height: 300px;
+    box-shadow: 24px 26px 28px gray;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    
+    }
+    .section-3 ul{
+      list-style: none;
+      color: #03a9f4;
+    }
+
+    .section-1 img{
+      height: 100px;
+      margin: 15px;
+    }
